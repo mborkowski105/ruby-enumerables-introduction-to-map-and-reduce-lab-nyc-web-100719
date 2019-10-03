@@ -5,6 +5,14 @@ def map_to_negativize(array)
   return array
 end
 
+def map_to_no_change(array)
+  return array
+end
+
+def map_to_square(array)
+  return array.map { |e| e*e }
+end
+
 def map_to_double(array)
   return array.map { |e| e*2 }
 end
