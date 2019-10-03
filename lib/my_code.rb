@@ -8,3 +8,7 @@ end
 def map_to_double(array)
   return array.map { |e| e*2 }
 end
+
+def reduce_to_total(array)
+  return nil
+end
