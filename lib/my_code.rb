@@ -20,3 +20,7 @@ end
 def reduce_to_total(array, start = 0)
   return array.reduce(start) { |sum, num| sum + num }
 end
+
+def reduce_to_all_true(array, start = 0)
+  return array.reduce(start) { |sum, num| sum + num }
+end
